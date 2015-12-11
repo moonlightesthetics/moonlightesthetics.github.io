@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url(https://fonts.googleapis.com/css?family=Chonburi);
+
+body{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,c3dfe3+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #c3dfe3 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#c3dfe3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#c3dfe3 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#c3dfe3 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#c3dfe3 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#c3dfe3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c3dfe3',GradientType=0 ); /* IE6-9 */
+
+}
+/* Top Header */
+.header-links{
+  width:100%;
+  height:40px;
+  margin:0 auto;
+  padding:10px;
+  background-color:#C3DFE3;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+.list-inline{
+  margin:0;
+  text-align: center;
+  color:white;
+}
+.list-inline a:link{
+  text-decoration: none;
+  color:white;
+}
+.list-inline a:visited{
+  text-decoration: none;
+  color:white;
+}
+.list-inline a:hover{
+  text-decoration: none;
+  color:black;
+}
+.list-inline a:active{
+  text-decoration: none;
+  color:white;
+}
+/* ME Logo */
+.logo-container{
+    width: 100%;
+}
+.logo{
+  width:50%;
+  margin:0 auto;
+  padding:10px;
+  display:block;
+}
+/* Slideshow */
+.slideshow{
+  padding:10px;
+  margin:0 2% 2% 2%;
+  border-radius: 10px;
+  background-image: url('images/slideshowBG.jpg');
+}
+.special{
+  padding:10px;
+  text-align: center;
+  font-weight: 400;
+}
+.special-title{
+  font-family: 'Chonburi', cursive;
+}
+.special-text{
+  font-family:'Quicksand', sans-serif;
+  font-size: .9em;
+}
+.special-description{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.75em;
+}
+
+/* Bio */
+.bio{
+  background-color: #c3dfe3;
+  margin:0 2% 2% 2%;
+  box-shadow: 1px 1px 5px grey;
+  font:1.2em 'Quicksand', sans-serif;
+  padding:10px;
+  text-align: center;
+}
+/* Links To Other Pages */
+.box{
+  margin:2% auto;
+  width:32%;
+  min-width:300px;
+}
+/* Services */
+#services a:link{
+    text-decoration: none;
+    color:black;
+}
+#services a:visited{
+    text-decoration: none;
+    color:black;
+}
+#services a:hover{
+    text-decoration: none;
+    color:black;
+}
+#services a:active{
+    text-decoration: none;
+    color:black;
+}
+.panel-services{
+  height:120px;
+  background-color: #c3dfe3;
+  box-shadow: 1px 1px 5px grey;
+}
+.panel-services:hover{
+    box-shadow: 1px 1px 5px silver;
+    text-shadow: 1px 1px 2px white;
+}
+/* Products */
+#products a:link{
+    text-decoration: none;
+    color:black;
+}
+#products a:visited{
+    text-decoration: none;
+    color:black;
+}
+#products a:hover{
+    text-decoration: none;
+    color:black;
+}
+#products a:active{
+    text-decoration: none;
+    color:black;
+}
+.panel-products{
+  height:120px;
+  background-color: #9EB5C0;
+  box-shadow: 1px 1px 5px grey;
+}
+.panel-products:hover{
+    box-shadow: 1px 1px 5px silver;
+    text-shadow: 1px 1px 2px white;
+}
+/* Contact */
+#contact a:link{
+    text-decoration: none;
+    color:black;
+}
+#contact a:visited{
+    text-decoration: none;
+    color:black;
+}
+#contact a:hover{
+    text-decoration: none;
+    color:black;
+}
+#contact a:active{
+    text-decoration: none;
+    color:black;
+}
+.panel-contact{
+  height:120px;
+  background-color: #aa9fbe;
+  box-shadow: 1px 1px 5px grey;
+}
+.panel-contact:hover{
+    box-shadow: 1px 1px 5px silver;
+    text-shadow: 1px 1px 2px white;
+}
+.page-topic{
+    font-family:'Quicksand', sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+    position: relative;
+    top:20%;
+    background-color: rgba( 255, 255, 255, 0.3);
+    width:75%;
+    margin:0 auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer-links{
+  width:100%;
+  height:100%;
+  background-color:#263237;
+}
+.circle-wrapper{
+  width:260px;
+  margin:0 auto;
+}
+.circle{
+  background-color: white;
+  width:40px;
+  height:40px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  display:inline-block;
+  text-align: center;
+  margin:10px 10px;
+}
+.circle:hover{
+  background-color: #C3DFE3;
+}
+
+/*SPA SERVICE PAGE*/
+.service-name{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color:lightSlateGray;
+  font-size: 1.75em;
+  padding-right: 10px;
+}
+.service-desc{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25em;
+}
+.service-heading{
+  font-family: 'Chonburi', cursive;
+  font-size: 3em;
+  text-align: center;
+  color:lightSlateGray;
+}
+.service-line{
+  border-top: 1px solid lightSlateGray;
+}
+.gift-cert{
+  font-family: 'Chonburi', cursive;
+  font-size: 2em;
+  text-align: center;
+  padding: 15px;
+}
+/*Contact Page*/
+.contact-bold{
+  font-family: 'Quicksand', sans-serif;
+  color:lightSlateGray;
+  font-size: 1.75em;
+  padding-right: 10px;
+  text-align: center;
+}
+.contact{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+}
+.map{
+  width:100%;
+  margin:0 auto;
+  padding: 10px;
+}
+.contact a:link{
+  color:black;
+  text-decoration: none;
+}
+.contact a:visited{
+  color:black;
+  text-decoration: none;
+}
+.contact a:hover{
+  color:#aa9fbe;
+  text-decoration: none;
+}
+.contact a:active{
+  color:black;
+  text-decoration: none;
+}
+.bold{
+  font-style: italic;
+}
+/*Product Page*/
+.product-image{
+  width:50%;
+  margin:0 25%;
+}
